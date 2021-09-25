@@ -17,12 +17,19 @@ font-family: 'Train One', cursive;
 
 html {
   background-color: rgb(20, 3, 3);
+  background: url("./images/Background.jpg");
+}
+section.home {
+  background-color: black;
+  max-width: 50%;
+}
+body div.App {
+  background-color: transparent;
 }
 
 body {
   font-size: 20px;
   max-width: 1600px;
-
   margin: 0 auto !important;
 }
 

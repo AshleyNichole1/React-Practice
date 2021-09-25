@@ -3,10 +3,12 @@ import './Intro.css'
 
 export default function Intro(props) {
     return (
-        <section>
-            <h2>{props.title}</h2>
+        <article className="component-intro">
+
             <img src={props.image} alt={props.alt}></img>
-            <p>{props.description} </p>
-        </section>
+            <div className="text">
+                <p>{props.description} </p>
+            </div>
+        </article>
     )
 }

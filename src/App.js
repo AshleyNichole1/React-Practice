@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import './App.css'
-import Projects from "./Components/Projects";
 
+import Footer from "./Footer";
+import Projects from "./Projects/Projects"
 import Header from "./Header";
 import Home from "./Home/Home";
 
@@ -18,9 +19,11 @@ export default function App() {
       {showContent === "Home" &&
         <Home />}
 
-      {showContent === "Projects" && <Projects />}
+      {showContent === "Projects" &&
+        <Projects />
+      }
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
 
   )
